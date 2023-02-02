@@ -1,0 +1,4 @@
+add_library(freertos-config INTERFACE)
+
+target_include_directories(freertos-config INTERFACE . )
+
